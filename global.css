@@ -3,9 +3,9 @@ html {
 	background-image: url(background_image.jpg)
 }
 
-body {
+/*body {
 	width:70%;
-}
+}*/
 
 h1 {
 	width: 70%;
@@ -18,15 +18,22 @@ h1 {
 }
 
 p {
-	width: 65%;
-	background-color: #e1edeb;
-	border-radius: 10px;
-	padding: 10px;
-	box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+	width: 70%;
 	font-family: "Indie Flower", "Kurale", serif;
+	padding: 20px;
+	margin: 0 auto;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+	background-color: #e1edeb;
 	font-weight: normal;
 	font-size: 1.25em;
 	line-height: 120%;
 	margin-top: 20px;
-	margin-left: 60px;
+}
+
+address {
+	width: 70%;
+	font-family: "Kurale", "Arial black", serif;
+	padding: 20px;
+	margin: 0 auto;
 }
