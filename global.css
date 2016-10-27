@@ -3,9 +3,9 @@ html {
 	background-image: url(background_image.jpg)
 }
 
-/*body {
-	width:70%;
-}*/
+body {
+	width: 95%;
+}
 
 h1, h2 {
 	width: 70%;
@@ -21,20 +21,6 @@ h1 {
 	text-align: center;
 }
 
-/*p {
-	width: 50%;
-	font-family: "Kurale", serif;
-	padding: 20px;
-	margin: 0 auto;
-	border-radius: 10px;
-	box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
-	background-color: #e1edeb;
-	font-weight: normal;
-	font-size: 1.25em;
-	line-height: 120%;
-	margin-top: 20px;
-}*/
-
 address {
 	width: 70%;
 	font-family: "Kurale", "Arial black", serif;
@@ -43,10 +29,12 @@ address {
 }
 
 .info {
+
 	width: 65%;
 	font-family: "Kurale", serif;
 	padding: 15px;
 	margin: 0 auto;
+	margin-left: 19%;
 	border-radius: 10px;
 	box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
 	background-color: #e1edeb;
@@ -54,6 +42,11 @@ address {
 	font-size: 1.25em;
 	line-height: 120%;
 	margin-top: 10px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 900px;
 }
 
 p {
