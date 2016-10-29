@@ -1,6 +1,7 @@
 html {
 	padding-top: 25px;
-	background-image: url(background_image.jpg)
+	background: url(background_image.jpg) fixed;
+	background-size: cover;
 }
 
 body {
