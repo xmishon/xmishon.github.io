@@ -35,12 +35,12 @@ body {
 	margin: 0 auto;
 }
 .page {
-	width: 95%;
-	padding: 5px 10px 5px 10px;
 	background-color: rgb(60,60,60);
+	min-height: 600px;
 }
 .headline {
 	width: 85%;
+	max-width: 650px;
 	font-family: Comfortaa, Calibri, serif;
 	font-weight: bold;
 	font-size: 2em;
@@ -49,8 +49,35 @@ body {
 	padding: 30px 10px 30px 10px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 	background-image: url(headline_background.png);
 	background-repeat: no-repeat;
 	background-position: 50% 50%
+}
+h2 {
+	font-family: Comfortaa, Calibri, serif;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: 20px 10px 15px 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+.sidebar {
+	max-width: 300px;
+	background-color: white;
+	padding: 35px 15px 35px 15px;
+	float: right;
+	margin-right: 5px;
+}
+.about_me {
+	max-width: 63%;
+	float:left;
+	background-color: white;
+	margin-left:5px;
+	padding: 5px 15px 5px 15px;
+}
+p {
+	font-family: Comfortaa, Calibri, serif;
+	font-size: 1.1em;
 }
