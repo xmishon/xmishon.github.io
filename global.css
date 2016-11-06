@@ -73,11 +73,15 @@ h2 {
 .about_me {
 	max-width: 63%;
 	float:left;
+	font-size: 1.3em;
 	background-color: white;
 	margin-left:5px;
 	padding: 5px 15px 5px 15px;
 }
 p {
 	font-family: Comfortaa, Calibri, serif;
-	font-size: 1.1em;
+	padding: 5px 5px 5px 5px;
 }
+/*p.about_me {
+	font-size: 1.5em;
+}*/
