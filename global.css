@@ -30,13 +30,13 @@ table {
 /* конец кода сброса стилей браузера */
 
 body {
-	max-width: 1000px;
 	background-color: rgb(40,40,40);
-	margin: 0 auto;
 }
 .page {
+	max-width: 1000px;
 	background-color: rgb(60,60,60);
-	height: 400px;
+	margin: 0 auto;
+	height: 700px;
 }
 .headline {
 	width: 85%;
