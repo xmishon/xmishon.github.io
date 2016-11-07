@@ -29,6 +29,10 @@ table {
 } 
 /* конец кода сброса стилей браузера */
 
+html, body {
+	height: 100%;
+}
+
 body {
 	background-color: rgb(40,40,40);
 }
@@ -36,7 +40,7 @@ body {
 	max-width: 1000px;
 	background-color: rgb(60,60,60);
 	margin: 0 auto;
-	height: 700px;
+	height: 1300px;
 }
 .headline {
 	width: 85%;
@@ -64,7 +68,7 @@ h2 {
 	margin-bottom: 20px;
 }
 .sidebar {
-	max-width: 300px;
+	width: 268px;
 	background-color: white;
 	padding: 35px 15px 35px 15px;
 	float: right;
